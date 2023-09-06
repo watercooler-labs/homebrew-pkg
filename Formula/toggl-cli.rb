@@ -1,5 +1,5 @@
 class TogglCli < Formula
-  desc "Unofficial CLI client for Toggl"
+  desc "Unofficial CLI for Toggl"
   homepage "https://github.com/watercooler-labs/toggl-cli"
   url "https://github.com/watercooler-labs/toggl-cli/archive/refs/tags/v0.3.0.tar.gz"
   sha256 "81515d479495d6980edbe858c7f4f334e89b725ca0b84021cc367485d6a801a3"
