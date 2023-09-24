@@ -6,6 +6,12 @@ class TogglCli < Formula
   license "MIT"
   head "https://github.com/watercooler-labs/toggl-cli.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/watercooler-labs/homebrew-pkg/releases/download/toggl-cli-0.3.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, ventura: "44332b62fb96a4aee2c5144229c091a7d3c5f55215352b6676342869a5121819"
+  end
+
   depends_on "rust" => :build
 
   def install
